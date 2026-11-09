@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sport-1000 — Entraînement du jour</title>
+  <meta name="description" content="Le programme d'entraînement du jour.">
+  <meta property="og:title" content="Sport-1000">
+  <meta property="og:description" content="Le programme d'entraînement du jour.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f5f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171714'/%3E%3Cpath d='M18 32h28M25 23v18M39 23v18' stroke='%23f5f4ef' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main class="page">
+    <header class="head">
+      <p class="brand">Sport-1000</p>
+      <div class="dayline">
+        <h1 id="day">Aujourd'hui</h1>
+        <span class="type" id="type" hidden></span>
+      </div>
+      <p class="date" id="date"></p>
+    </header>
+
+    <section class="workout" id="workout" aria-label="Entraînement du jour">
+      <noscript>Active JavaScript pour afficher l'entraînement.</noscript>
+    </section>
+
+    <footer class="foot">
+      <a href="edit.html">Modifier le programme</a>
+    </footer>
+  </main>
+</body>
+</html>

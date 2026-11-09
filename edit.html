@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Modifier le programme — Sport-1000</title>
+  <meta name="description" content="Modifier le programme d'entraînement Sport-1000.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#f5f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171714'/%3E%3Cpath d='M18 32h28M25 23v18M39 23v18' stroke='%23f5f4ef' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="edit.js"></script>
+</head>
+<body>
+  <main class="page">
+    <header class="head">
+      <p class="brand">Sport-1000</p>
+      <h1 class="edit-title">Modifier le programme</h1>
+      <p class="hint">Enregistré dans ce navigateur uniquement.</p>
+    </header>
+
+    <form id="editor" class="editor" autocomplete="off" spellcheck="false">
+      <div id="fields"></div>
+      <div class="savebar">
+        <button type="submit" class="btn">Enregistrer</button>
+        <button type="button" class="btn btn-ghost" id="reset">Réinitialiser</button>
+        <p class="status" id="status" role="status"></p>
+      </div>
+    </form>
+
+    <footer class="foot">
+      <a href="index.html">← Retour à aujourd'hui</a>
+    </footer>
+  </main>
+</body>
+</html>
